@@ -41,7 +41,7 @@ python NoirDeleter.py
 ## Performance
 
 - **Cached files** are skipped entirely (fastest)
-- **Speed:** 50-150 images/sec depending on image size and disk, about 350/s for cached files
+- **Speed:** 50-150 images/sec depending on image size and disk, about 1000/s for cached files
 - Periodic saves prevent excessive memory usage on large folders
 
 ## Notes
