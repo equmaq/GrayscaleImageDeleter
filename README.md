@@ -20,7 +20,7 @@ Edit the configuration at the bottom of `NoirDeleter.py`:
 
 ```python
 process_folder(
-    folder_path=r"F:\Porn\ToSort",  # Directory to scan (includes subdirectories)
+    folder_path=r"F:\Example\Folder",  # Directory to scan (includes subdirectories)
     threshold=99,                    # Grayscale % to delete (0-100). Recommended: 99
     workers=12                       # Parallel threads (max 12 on HDD)
 )
@@ -40,7 +40,7 @@ python NoirDeleter.py
 
 ## Performance
 
-- **Cached files** are skipped entirely (fastest)
+- **Cached files** are skipped entirely
 - **Speed:** 30-150 images/sec depending on image size, about 500/s for cached files (guesstimated on:5600X, sata SSDs, 3600MTs ram)
 - Periodic saves prevent excessive memory usage on large folders
 
